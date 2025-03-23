@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742755589.31424 "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" "semestra.pdf" "semestra" 1742755590.79484 0
-  "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" 1742755589.12293 10534 cfa51831ef8ffc565dd448e87a129548 ""
+["pdflatex"] 1742755816.00655 "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" "semestra.pdf" "semestra" 1742755817.39255 0
+  "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" 1742755815.81407 8129 85c069b8876296ccf6a68b6b6266200d ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/gillius/gls_4bsedw.enc" 1742685315 2974 5e292c6fb1c6ad48bcd42b94e25a1512 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -246,9 +246,9 @@
   "lib/languages/japanese.sty" 1742744570 2858 ab041a9e8935586f69ee898db41e41a3 ""
   "lib/languages/ngerman.sty" 1742744570 2679 8c4c9c46fe3aafa1436d9cf17bb8ad8b ""
   "lib/languages/russian.sty" 1742744570 2978 65662b6fe5ed4e4a0c5538f3b15dbc05 ""
-  "semestra.aux" 1742755590.70818 1520 dfa868334a62730a92c96eabf42733d6 "pdflatex"
-  "semestra.tex" 1742755589.12293 10534 cfa51831ef8ffc565dd448e87a129548 ""
-  "semestra.toc" 1742755590.71061 145 f21bb16f9a193fe4e2aa38d5182dc061 "pdflatex"
+  "semestra.aux" 1742755817.30593 1520 dfa868334a62730a92c96eabf42733d6 "pdflatex"
+  "semestra.tex" 1742755815.81407 8129 85c069b8876296ccf6a68b6b6266200d ""
+  "semestra.toc" 1742755817.30822 145 f21bb16f9a193fe4e2aa38d5182dc061 "pdflatex"
   (generated)
   "semestra.aux"
   "semestra.log"

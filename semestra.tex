@@ -145,12 +145,6 @@ Semestra sapeva che era proibito interferire con il corso naturale delle cose, c
       ]
 
     \DndMonsterDetails[
-        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
-        %skills = {Acrobatics +0, Animal Handling +0, Arcana +0, Athletics +0, Deception +0, History +0, Insight +0, Intimidation +0, Investigation +0, Medicine +0, Nature +0, Perception +0, Performance +0, Persuasion +0, Religion +0, Sleight of Hand +0, Stealth +0, Survival +0},
-        %damage-vulnerabilities = {cold},
-        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
-        %damage-immunities = {poison},
-        %condition-immunities = {poisoned},
         senses = {Scurovisione 9m, Percezione Passiva 10},
         languages = {Comprende il Comune},
         challenge = 0,
@@ -159,19 +153,16 @@ Semestra sapeva che era proibito interferire con il corso naturale delle cose, c
     \DndMonsterSection{Tratti}
     \DndMonsterAction{Olfatto Affinato} Larry ha vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto.
     \DndMonsterSection{Actions}
-    \DndMonsterAction{Multiattack}
-    The foo makes two melee attacks.
-
     %Default values are shown commented out
-    \DndMonsterAttack[
-      name=Dagger,
-      %distance=both, % valid options are in the set {both,melee,ranged},
-      %type=weapon, %valid options are in the set {weapon,spell}
-      mod=+3,
-      %reach=5,
+    \DndMonsterMelee[
+      name=Morso,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      type=weapon, %valid options are in the set {weapon,spell}
+      mod=+0,
+      %reach=1.5m,
       %range=20/60,
-      %targets=one target,
-      dmg=\DndDice{1d4+1},
+      targets=one target,
+      dmg=1,
       dmg-type=piercing,
       %plus-dmg=,
       %plus-dmg-type=,
@@ -181,43 +172,7 @@ Semestra sapeva che era proibito interferire con il corso naturale delle cose, c
     ]
 
     %\DndMonsterMelee calls \DndMonsterAttack with the melee option
-    \DndMonsterMelee[
-      name=Flame Tongue Longsword,
-      mod=+3,
-      %reach=5,
-      %targets=one target,
-      dmg=\DndDice{1d8+1},
-      dmg-type=slashing,
-      plus-dmg=\DndDice{2d6},
-      plus-dmg-type=fire,
-      or-dmg=\DndDice{1d10+1},
-      or-dmg-when=if used with two hands,
-      %extra=,
-    ]
-
-    %\DndMonsterRanged calls \DndMonsterAttack with the ranged option
-    \DndMonsterRanged[
-      name=Assassin's Light Crossbow,
-      mod=+1,
-      range=80/320,
-      dmg=\DndDice{1d8},
-      dmg-type=piercing,
-      %plus-dmg=,
-      %plus-dmg-type=,
-      %or-dmg=,
-      %or-dmg-when=,
-      extra={, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one}
-    ]
-
-    % Legendary Actions
-    \DndMonsterSection{Legendary Actions}
-    The foo can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The foo regains spent legendary actions at the start of its turn.
-
-    \begin{DndMonsterLegendaryActions}
-      \DndMonsterLegendaryAction{Move}{The foo moves up to its speed.}
-      \DndMonsterLegendaryAction{Dagger Attack}{The foo makes a dagger attack.}
-      \DndMonsterLegendaryAction{Create Contract (Costs 3 Actions)}{The foo presents a contract in a language it knows and waves it in the face of a creature within 10 feet. The creature must make a DC 10 Intelligence saving throw. On a failure, the creature is incapacitated until the start of the foo's next turn. A creature who cannot read the language in which the contract is written has advantage on this saving throw.}
-    \end{DndMonsterLegendaryActions}
+    
   \end{multicols}
 \end{DndMonster}
 \end{document}
