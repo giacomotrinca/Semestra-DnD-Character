@@ -2,9 +2,26 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \contentsline {chapter}{\numberline {1}Prologo}{1}{}%
-\contentsline {section}{Un incontro inaspettato}{1}{}%
+\contentsline {section}{Un incontro inaspettato}{2}{}%
+\contentsline {paragraph}{La scoperta del dono}{2}{}%
+\contentsline {paragraph}{Il primo incantesimo}{2}{}%
+\contentsline {paragraph}{Un legame speciale}{2}{}%
+\contentsline {paragraph}{La nascita di un compagno}{3}{}%
+\contentsline {paragraph}{Un legame indissolubile}{3}{}%
 \contentsline {section}{Semestra, la Figlia della Foresta}{3}{}%
 \contentsline {paragraph}{L’apprendimento degli incantesimi di cura}{3}{}%
 \contentsline {paragraph}{L’arte dell’evocazione}{3}{}%
 \contentsline {paragraph}{La via della guarigione e dell’evocazione}{4}{}%
 \contentsline {section}{La maledizione della Foresta Alta}{4}{}%
+\contentsline {paragraph}{L’inizio della maledizione}{4}{}%
+\contentsline {paragraph}{I primi tentativi di salvezza}{4}{}%
+\contentsline {paragraph}{La resistenza della maledizione}{4}{}%
+\contentsline {paragraph}{Il sacrificio della foresta}{5}{}%
+\contentsline {paragraph}{La speranza nella lotta}{5}{}%
+\contentsline {section}{Il richiamo di Thylea}{5}{}%
+\contentsline {paragraph}{Un presagio oscuro}{5}{}%
+\contentsline {paragraph}{La distruzione del salice}{5}{}%
+\contentsline {paragraph}{Il risveglio e il messaggio}{5}{}%
+\contentsline {paragraph}{La decisione di partire}{5}{}%
+\contentsline {paragraph}{Preparativi per il viaggio}{5}{}%
+\contentsline {paragraph}{Verso l’ignoto}{6}{}%

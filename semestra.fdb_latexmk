@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742844417.9718 "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" "semestra.pdf" "semestra" 1742844419.53813 0
-  "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" 1742844417.77737 20647 e8384576f330757dc642b41a1acf06f8 ""
+["pdflatex"] 1742848322.68122 "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" "semestra.pdf" "semestra" 1742848324.14384 0
+  "/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex" 1742848321.08931 26211 241690a7374f58deb8ff375905071438 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/gillius/gls_4bsedw.enc" 1742685315 2974 5e292c6fb1c6ad48bcd42b94e25a1512 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -239,8 +239,7 @@
   "img/fearun_map.jpg" 1742750523.31711 4084966 3ff624821490d66ae276af74e0980e89 ""
   "img/footerscroll.pdf" 1742744570 2229 919589f4b78982970bfb61061d203879 ""
   "img/paper.jpg" 1742744570 1613971 561721929de671c1c12b70b92bd75072 ""
-  "img/rituale.jpeg" 1742842009.69172 708024 6705ee25ce5263eea2460c88e5ec8714 ""
-  "img/semestra_larry-1.jpeg" 1742752986.52252 542114 7e4b04ba13adfdb83e6cf2a598a6070b ""
+  "img/rune.jpeg" 1742844776.51126 252880 f46d018672d22cb79129e3db7e291c80 ""
   "lib/compat.sty" 1742744570 531 9c3482d34cb1ae9541c1672f8336eff9 ""
   "lib/dndcolors.sty" 1742744570 2128 5ca378d175fe86e866c60019935867c4 ""
   "lib/dndcomment.sty" 1742744570 2127 ad5c03b41398434817469d342b2ec68b ""
@@ -257,9 +256,9 @@
   "lib/languages/japanese.sty" 1742744570 2858 ab041a9e8935586f69ee898db41e41a3 ""
   "lib/languages/ngerman.sty" 1742744570 2679 8c4c9c46fe3aafa1436d9cf17bb8ad8b ""
   "lib/languages/russian.sty" 1742744570 2978 65662b6fe5ed4e4a0c5538f3b15dbc05 ""
-  "semestra.aux" 1742844419.44133 2202 f32b4a01d8865af46a24612801f32575 "pdflatex"
-  "semestra.tex" 1742844417.77737 20647 e8384576f330757dc642b41a1acf06f8 ""
-  "semestra.toc" 1742844419.44414 543 8576e8b59313602cb7643892d8b2e27c "pdflatex"
+  "semestra.aux" 1742848324.04924 4052 584f0341a41558752e257f67d04fdf84 "pdflatex"
+  "semestra.tex" 1742848321.08931 26211 241690a7374f58deb8ff375905071438 ""
+  "semestra.toc" 1742848324.05167 1519 81ba8283eb4b94950e420eec5d0d5f4b "pdflatex"
   (generated)
   "semestra.aux"
   "semestra.log"
