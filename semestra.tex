@@ -15,6 +15,41 @@
 \usepackage{graphicx} % Add this package for image support
 \usepackage{tcolorbox} % Aggiungi questo pacchetto
 
+
+\newcommand{\Cap}[2]{\DndDropCapLine{#1}{#2}}
+\newcommand{\image}[3]{%
+  \begin{figure}[#3]
+    \begin{tcolorbox}[
+        enhanced,
+        colframe=PhbTan,
+        colback=white,
+        opacityback=0,
+        title={\vspace{0.2cm}\centering \sc  \textbf{#2}\vspace{0.2cm}},
+        colbacktitle=PhbTan!50!PhbLightCyan,
+        coltitle=black,
+        fonttitle=\bfseries
+    ]
+    \includegraphics[width=\textwidth]{img/#1}
+    \end{tcolorbox}
+  \end{figure}
+}
+\newcommand{\imageFull}[3]{%
+  \begin{figure*}[#3]
+    \begin{tcolorbox}[
+        enhanced,
+        colframe=PhbTan,
+        colback=white,
+        opacityback=0,
+        title={\vspace{0.2cm}\centering \sc  \textbf{#2}\vspace{0.2cm}},
+        colbacktitle=PhbTan!50!PhbLightCyan,
+        coltitle=black,
+        fonttitle=\bfseries
+    ]
+    \includegraphics[width=\textwidth]{img/#1}
+    \end{tcolorbox}
+  \end{figure*}
+}
+
 \captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
 
 \MakeShortVerb{|}
@@ -38,92 +73,45 @@
 \tableofcontents
 
 \mainmatter%
-
-\chapter*{Prologo}
 \justifying
-\DndDropCapLine{S}{emestra vide la luce} in una fredda alba d’inverno, il 30 Gennaio 1463 C.V., 
-alle pendici delle Montagne della Spada, nella Foresta del Giardino delle Cripte, un luogo intriso 
-di mistero e leggende. La foresta, con i suoi alberi secolari e le radure avvolte da una nebbia 
-perenne, sembrava quasi voler custodire il segreto della sua nascita. Kristen, sua madre, era una 
-giovane hobbit dal sangue nobile, figlia di uno dei capi dei Pugni Fiammanti, la temuta milizia di 
-Baldur's Gate. Ma il suo destino era stato segnato da un’onta che non poteva essere cancellata. 
-Vittima di un atto di violenza da parte del suo stesso padre, Kristen si trovò a portare in grembo 
-una vita che non aveva scelto, ma che non poteva sopprimere. La vergogna e il disonore che 
-gravavano sulla sua famiglia la spinsero a compiere una scelta dolorosa: abbandonare la neonata 
-alle pendici delle Montagne della Spada, lontano dagli occhi giudicanti della società.
+\chapter{Prologo}
 
-\DndDropCapLine{N}{on fu il destino}, né la volontà degli dèi, a guidare Thorin verso quel fragile fagotto avvolto in 
-una coperta logora. Thorin, un nano delle Montagne e fedele della Vecchia Fede, venerava la Natura 
-come unica entità soprannaturale, rifiutando ogni altra divinità. Era un druido, un tempo un fiero 
-guerriero che aveva combattuto contro Halaster il Mago Folle nelle profondità di Undermountain. 
-Dopo quella battaglia, segnato nel corpo e nello spirito, aveva deciso di abbandonare la vita di 
-avventuriero per dedicarsi alla cura della Foresta Alta, devastata dalle maledizioni scagliate da 
-Halaster. Nel suo piccolo insediamento naturalistico, nascosto tra le colline e protetto dalla 
-magia della natura, Thorin trovò in Semestra una nuova ragione di vita. La prese con sé, nutrendola 
-con latte di capra e raccontandole, fin dai suoi primi giorni, le storie degli antichi eroi e delle 
-terre selvagge. La foresta divenne la sua culla, i canti degli uccelli il suo ninna nanna, e le mani 
-callose di Thorin il suo rifugio sicuro. 
+\Cap{S}{emestra vide la luce} in una fredda alba d’inverno, il 30 Gennaio 1463 C.V., alle pendici delle Montagne della Spada, nella Foresta del Giardino delle Cripte, un luogo avvolto da mistero e leggende. La foresta, con i suoi alberi secolari e le radure immerse in una nebbia perenne, sembrava voler custodire il segreto della sua nascita. Kristen, sua madre, era una giovane hobbit dal sangue nobile, figlia di uno dei capi dei Pugni Fiammanti, la temuta milizia di Baldur's Gate. Ma il suo destino era stato segnato da un’onta che non poteva essere cancellata. Vittima di un atto di violenza da parte del suo stesso padre, Kristen si trovò a portare in grembo una vita che non aveva scelto. La vergogna e il disonore che gravavano sulla sua famiglia la spinsero a compiere una scelta dolorosa: abbandonare la neonata alle pendici delle Montagne della Spada, lontano dagli occhi giudicanti della società.
+
+Thorin, un nano delle Montagne e fedele della Vecchia Fede, venerava la Natura come unica entità soprannaturale, rifiutando ogni altra divinità. Era un druido, un tempo un fiero guerriero che aveva combattuto contro Halaster il Mago Folle nelle profondità di Undermountain. Dopo quella battaglia, segnato nel corpo e nello spirito, aveva deciso di abbandonare la vita di avventuriero per dedicarsi alla cura della Foresta Alta, devastata dalle maledizioni scagliate da Halaster. Nel suo piccolo insediamento naturalistico, nascosto tra le colline e protetto dalla magia della natura, Thorin trovò in Semestra una nuova ragione di vita. La prese con sé, nutrendola con latte di capra e raccontandole, fin dai suoi primi giorni, le storie degli antichi eroi e delle terre selvagge. La foresta divenne la sua culla, i canti degli uccelli il suo ninna nanna, e le mani callose di Thorin il suo rifugio sicuro.
+
+\begingroup
+\DndSetThemeColor[PhbMauve]
+\begin{DndComment}{Montagna della Spada}
+La Montagna della Spada si erge maestosa contro il cielo, le sue cime innevate brillano alla luce del sole come lame affilate. All’esterno, le pendici sono ricoperte da foreste di pini e abeti, interrotte da sentieri rocciosi che conducono a ingressi nascosti. Qui, i nani delle montagne hanno costruito le loro dimore, scolpendo la pietra viva con maestria. Le facciate delle loro case sono decorate con intricate incisioni che raccontano storie di antiche battaglie e leggende dimenticate. All’interno, la montagna è un labirinto di gallerie illuminate da cristalli luminescenti. Le sale principali sono immense, con soffitti alti sorretti da colonne scolpite a forma di guerrieri e animali mitici. I nani vivono in armonia con la montagna, estraendo i suoi minerali preziosi senza mai distruggerne l’essenza. Le fucine risuonano del martellare del metallo, mentre i canti dei nani riecheggiano nelle profondità, celebrando la loro connessione con la terra.
+\end{DndComment}
+
+\begin{DndComment}{Giardino delle Cripte}
+Il Giardino delle Cripte è un luogo sacro, avvolto da un’aura di mistero e quiete. Si trova nel cuore della Foresta Alta, nascosto tra alberi secolari le cui radici si intrecciano come mani protettive. Qui, i druidi della Vecchia Fede eseguono i loro rituali più importanti. Il giardino è composto da un cerchio di pietre antiche, coperte di muschio e incise con rune druidiche che brillano debolmente alla luce della luna. Al centro del cerchio si trova un altare di pietra, dove vengono deposte offerte alla Natura: fiori, frutti e cristalli puri. Piccoli ruscelli scorrono attraverso il giardino, il loro mormorio si mescola ai canti degli uccelli e al fruscio delle foglie. Durante i rituali, il giardino si anima di una luce eterea, con spiriti della natura che danzano tra le ombre. È un luogo di pace e potere, dove la connessione con la natura è più forte e dove i druidi trovano guida e ispirazione.
+\end{DndComment}
+
+\begin{DndComment}{Villaggio degli Spiriti}
+Il Villaggio degli Spiriti è una comunità vibrante e accogliente, nascosta tra le colline ai margini della Foresta Alta. Le case degli halfling sono costruite in armonia con la natura, scavate nelle colline o costruite con legno e pietra, con tetti ricoperti di erba e fiori selvatici. Sentieri di ciottoli collegano le abitazioni, mentre piccoli ponti di legno attraversano ruscelli cristallini che scorrono attraverso il villaggio. Al centro si trova una grande piazza circolare, dove gli halfling si riuniscono per celebrare feste, raccontare storie e condividere pasti. Un grande albero sacro si erge al centro della piazza, le sue radici si estendono in profondità, e si dice che sia il cuore spirituale del villaggio. Gli halfling degli Spiriti vivono in armonia con la foresta, coltivando piccoli orti e allevando animali, ma sempre rispettando le leggi della natura. La loro vita è semplice, ma ricca di tradizioni e leggende, tramandate di generazione in generazione.
+\end{DndComment}
+\endgroup
+
+\imageFull{fearun_map.jpg}{Mappa del Faer\"un}{ht}
+
 
 \section{Un incontro inaspettato}
 
-\DndDropCapLine{L}{’addestramento di Semestra} sotto la guida di Thorin non fu privo di difficoltà. 
-Fin dai primi anni, la giovane mostrò una certa avversione verso la magia. Nonostante gli sforzi 
-del druido, Semestra non riusciva a padroneggiare neanche i più semplici incantesimi. 
-Ogni tentativo di evocare la magia sembrava scivolarle via, come sabbia tra le dita. 
-Frustrata, ma determinata a non deludere il suo mentore, Semestra si dedicò con passione alle 
-altre arti druidiche. Imparò il druidico, la leggendaria lingua segreta dei druidi, 
-usata per comunicare con la natura e per tracciare rune magiche. 
-Tuttavia, anche queste rune sembravano prive di potere quando tracciate dalle sue mani, 
-un fatto che alimentava in lei un senso di inadeguatezza.\\
+\Cap{L}{’addestramento di Semestra} sotto la guida di Thorin non fu privo di difficoltà. Fin dai primi anni, la giovane mostrò una certa avversione verso la magia. Nonostante gli sforzi del druido, Semestra non riusciva a padroneggiare neanche i più semplici incantesimi. Ogni tentativo di evocare la magia sembrava scivolarle via, come sabbia tra le dita. Frustrata, ma determinata a non deludere il suo mentore, si dedicò con passione alle altre arti druidiche. Imparò il druidico, la leggendaria lingua segreta dei druidi, usata per comunicare con la natura e per tracciare rune magiche. Tuttavia, anche queste rune sembravano prive di potere quando tracciate dalle sue mani, un fatto che alimentava in lei un senso di inadeguatezza.
 
-Fu solo all’età di sedici anni, durante la sua prima pattuglia solitaria nella Foresta Alta, 
-che il destino decise di rivelare il suo potenziale. Mentre camminava tra gli alberi secolari, 
-immersa nei suoni della natura, Semestra si imbatté in un piccolo topo ferito. Il minuscolo 
-animale giaceva immobile tra le foglie, il suo pelo bianco macchiato di sangue. 
-La vista di quel fragile essere in difficoltà colpì profondamente il cuore della giovane. 
-Si inginocchiò accanto al topo, le lacrime che le rigavano il viso. Lo prese delicatamente 
-tra le mani, sentendo il suo respiro debole e irregolare. Una lacrima, cadendo dal suo viso, 
-scivolò sul pelo del topo.\\
+Fu solo all’età di sedici anni, durante la sua prima pattuglia solitaria nella Foresta Alta, che il suo potenziale si rivelò. Mentre camminava tra gli alberi secolari, immersa nei suoni della natura, Semestra si imbatté in un piccolo topo ferito. Il minuscolo animale giaceva immobile tra le foglie, il suo pelo bianco macchiato di sangue. La vista di quel fragile essere in difficoltà colpì profondamente il cuore della giovane. Si inginocchiò accanto al topo, le lacrime che le rigavano il viso. Lo prese delicatamente tra le mani, sentendo il suo respiro debole e irregolare. Una lacrima, cadendo dal suo viso, scivolò sul pelo del topo.
 
-\begin{figure}[h!]
-  \begin{tcolorbox}[
-      enhanced,
-      colframe=PhbTan,      % Usa il colore lavanda predefinito del tema DMG
-      colback=white,
-      opacityback=0,
-      title={\vspace{0.2cm}\centering \sc  \textbf{Semestra e Larry}\vspace{0.2cm}},
-      colbacktitle=PhbTan!50!PhbLightCyan,
-      coltitle=black,
-      fonttitle=\bfseries
-  ]
-  \includegraphics[width=\textwidth]{img/semestra_larry-1.jpeg}
-  \label{fig:semestra-larry}
-  \end{tcolorbox}
-\end{figure}
+\image{semestra_larry-1.jpeg}{Semestra e Larry}{h!}
 
-\DndDropCapLine{F}{u allora} che accadde qualcosa di straordinario. La lacrima, non appena toccò 
-il piccolo animale, brillò di una luce calda e dorata. Semestra osservò incredula mentre il topo 
-si rianimava, le sue ferite si chiudevano e il suo respiro tornava regolare. Era il suo primo 
-incantesimo: \textit{Cura Ferite}. In quel momento, Semestra comprese che la magia non era qualcosa che poteva essere forzata o appresa con la sola disciplina. Era un dono, un legame profondo con la natura, che si manifestava solo quando il cuore e l’anima erano in perfetta armonia. Il topo, ora guarito, si arrampicò sulla sua spalla, come per ringraziarla, e da quel giorno divenne il suo fedele compagno, un simbolo del suo legame con la natura e del potere che finalmente aveva scoperto dentro di sé.
+Fu allora che accadde qualcosa di straordinario. La lacrima, non appena toccò il piccolo animale, brillò di una luce calda e dorata. Semestra osservò incredula mentre il topo si rianimava, le sue ferite si chiudevano e il suo respiro tornava regolare. Era il suo primo incantesimo: \textit{Cura Ferite}. In quel momento, comprese che la magia non era qualcosa che potesse essere forzata o appresa con la sola disciplina, ma un dono che si manifestava solo quando il cuore e l’anima erano in perfetta armonia.
 
-\begin{figure*}[b]
-    \begin{tcolorbox}[
-        enhanced,
-        colframe=PhbTan,
-        colback=white,
-        opacityback=0,
-        title={\vspace{0.2cm}\centering \sc  \textbf{La mappa del Fear\"un}\vspace{0.2cm}},
-        colbacktitle=PhbTan!50!PhbLightCyan,
-        coltitle=black,
-        fonttitle=\bfseries
-    ]
-    \includegraphics[width=\textwidth]{img/fearun_map.png}
-    \caption{\centering La mappa del Fear\"un.}
-    \label{fig:fearun-map}
-    \end{tcolorbox}
-\end{figure*}
+Consapevole che interferire con il corso naturale delle cose fosse proibito, Semestra esitò a lungo, combattuta tra ciò che le era stato insegnato e ciò che sentiva nel profondo del cuore. Guardava il piccolo topo, così fragile e indifeso, e non riusciva a ignorare il dolore che traspariva dai suoi occhi. Era come se la natura stessa, che tanto venerava, le stesse chiedendo aiuto, non con parole, ma con un silenzioso richiamo che risuonava nella sua anima. Alla fine, decise di seguire il suo istinto, nascondendo il piccolo animale nel suo mantello e portandolo con sé. Ogni giorno, lo accudì con cura, nutrendolo con briciole di pane e acqua raccolta dalle foglie, mentre gli parlava con dolcezza, cercando di trasmettergli conforto e speranza.\\
+Mentre il topo guariva lentamente, Semestra sentiva crescere dentro di sé una connessione profonda e inaspettata con la creatura. Non era solo un atto di compassione: era come se, attraverso quel gesto, stesse riscoprendo una parte di sé che aveva sempre ignorato, una parte che trascendeva le regole e i precetti della Vecchia Fede. Larry, come decise di chiamarlo, divenne il simbolo di un legame più grande, un legame che non si basava su dogmi o insegnamenti, ma sulla capacità di ascoltare e rispondere al richiamo della vita stessa. Quando Larry fu finalmente guarito, non la abbandonò. Si arrampicava sulla sua spalla, la seguiva nei suoi spostamenti e sembrava comprendere ogni suo gesto, come se tra loro si fosse creato un linguaggio silenzioso e unico. Per Semestra, quel piccolo animale non era solo una vita salvata, ma la prova che il suo cammino era appena iniziato, guidato non dalla paura di infrangere le regole, ma dall’amore e dal rispetto per tutto ciò che vive.
 
-Semestra sapeva che era proibito interferire con il corso naturale delle cose, così nascose il piccolo topolino, che poi chiamò Larry, finché non fu completamente guarito. Nonostante le regole della Vecchia Fede, sentiva che salvare quella fragile creatura era la cosa giusta da fare. Larry divenne presto il suo fedele compagno, un simbolo del suo legame con la natura e della sua crescente comprensione del mondo che la circondava.
+
 \begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Larry}
   \begin{multicols}{2}
     \DndMonsterType{Bestia, Taglia Minuscola, Neutrale Buono}
@@ -152,27 +140,76 @@ Semestra sapeva che era proibito interferire con il corso naturale delle cose, c
     % Traits
     \DndMonsterSection{Tratti}
     \DndMonsterAction{Olfatto Affinato} Larry ha vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto.
-    \DndMonsterSection{Actions}
+    \DndMonsterSection{Azioni}
     %Default values are shown commented out
     \DndMonsterMelee[
       name=Morso,
-      distance=melee, % valid options are in the set {both,melee,ranged},
+      %distance=melee, % valid options are in the set {both,melee,ranged},
       type=weapon, %valid options are in the set {weapon,spell}
       mod=+0,
-      %reach=1.5m,
-      %range=20/60,
       targets=one target,
       dmg=1,
       dmg-type=piercing,
-      %plus-dmg=,
-      %plus-dmg-type=,
-      %or-dmg=,
-      %or-dmg-when=,
-      %extra=,
-    ]
-
-    %\DndMonsterMelee calls \DndMonsterAttack with the melee option
-    
+    ]    
   \end{multicols}
 \end{DndMonster}
+
+\section{Semestra, la Figlia della Foresta}
+
+\Cap{F}{in da giovane}, Semestra mostrò una connessione unica con la natura, un legame che si esprimeva non attraverso il dominio sugli elementi o la trasformazione in bestie selvagge, come accadeva per molti druidi, ma attraverso la capacità di guarire e di evocare creature che incarnavano lo spirito della foresta. La sua via druidica era diversa, più delicata e compassionevole, ma non per questo meno potente. Thorin, il suo mentore, comprese presto che Semestra non era destinata a piegare la natura alla sua volontà, ma a collaborare con essa, a curare le sue ferite e a richiamare i suoi alleati più fedeli.
+
+\paragraph{L’apprendimento degli incantesimi di cura}
+
+Il primo passo di Semestra nel mondo della magia druidica fu l’apprendimento degli incantesimi di cura. Dopo il suo primo incantesimo spontaneo, \textit{Cura Ferite}, Thorin iniziò a guidarla nel perfezionamento di questa abilità. Ogni giorno, sotto la luce filtrata degli alberi della Foresta Alta, Semestra si esercitava a canalizzare l’energia vitale della natura. Thorin le insegnò che la magia curativa non era solo una questione di parole o gesti, ma richiedeva una profonda empatia e una connessione sincera con il mondo vivente. 
+
+Uno degli incantesimi più importanti che apprese fu \textit{Parola Guaritrice}, un incantesimo che richiedeva precisione e concentrazione. Thorin le spiegò che, a differenza di Cura Ferite, questo incantesimo poteva essere pronunciato a distanza, come un sussurro che attraversava il vento per raggiungere chi ne aveva bisogno. Dopo settimane di pratica, Semestra riuscì finalmente a padroneggiarlo. La formula in druidico che accompagnava l’incantesimo era un antico canto che sembrava risuonare con il battito stesso della foresta.
+
+\begin{DndSidebar}[float=!b]{La formula di Parola Guaritrice}
+  \textit{
+    "Lass'ethar, shael'aran.\\
+    Tua'lyth, an'ethar."\\
+  }
+  \textbf{Traduzione:}\\
+  "Spiriti della vita, guarite le ferite.\\  
+  Portate conforto e forza."
+\end{DndSidebar}
+
+\paragraph{L’arte dell’evocazione}
+
+Oltre alla guarigione, Semestra sviluppò un talento naturale per l’evocazione degli animali. Thorin le insegnò che ogni creatura della foresta aveva uno spirito unico, e che evocarle significava invocare la loro essenza, non semplicemente richiamarle fisicamente. Semestra trascorse mesi in meditazione, imparando a percepire le energie sottili che legavano ogni animale alla foresta. 
+
+Il primo animale che evocò fu un gufo, che apparve silenzioso tra i rami degli alberi, le sue piume bianche e grigie scintillavano alla luce della luna. Semestra lo chiamò Lyran, e da quel giorno il gufo divenne il suo compagno nelle notti solitarie. Lyran volava sopra di lei, osservando il mondo dall’alto con i suoi occhi penetranti, guidandola attraverso i sentieri nascosti della foresta. Successivamente, Semestra imparò a evocare piccoli lupi, che correvano al suo fianco come ombre viventi, e aquile, che scrutavano il terreno dall’alto con una precisione infallibile. Ogni evocazione era accompagnata da un canto druidico, un richiamo che sembrava fondersi con i suoni della foresta, come se la natura stessa rispondesse alla sua voce.
+
+\paragraph{La via della guarigione e dell’evocazione}
+
+Mentre altri druidi si concentravano sul controllo degli elementi o sulla trasformazione in bestie selvagge, Semestra scelse una strada diversa. La sua magia era un riflesso della sua anima: delicata, ma determinata. Preferiva curare piuttosto che distruggere, proteggere piuttosto che combattere. La sua capacità di guarire non si limitava agli esseri viventi, ma si estendeva anche alla foresta stessa. Spesso, la si poteva vedere inginocchiata accanto a un albero malato, le mani poggiate sul tronco, mentre sussurrava parole di conforto e intonava canti druidici per purificare il terreno.
+
+Semestra credeva che la vera forza non risiedesse nel dominio, ma nell’armonia. La sua magia era un ponte tra il mondo degli uomini e quello della natura, un legame che trascendeva le regole e i dogmi della Vecchia Fede. Per lei, ogni creatura evocata, ogni ferita guarita, era un passo verso un mondo in cui la vita e la natura potessero coesistere in equilibrio.
+
+\section{La maledizione della Foresta Alta}
+
+\Cap{A}{ll’inizio}, nessuno si accorse della maledizione che serpeggiava sotto la Foresta Alta. Era un male silenzioso, nascosto nelle profondità del terreno, tra le radici degli alberi secolari. I primi segni furono impercettibili: un fungo dall’aspetto innocuo, con un cappello bianco e macchie rosse, iniziò a comparire qua e là, sparso tra le radure e le ombre degli alberi. Nessuno sospettava che quelle piccole spore fossero il preludio di una rovina più grande. Le radici degli alberi, un tempo forti e intrecciate come una rete di vita, cominciarono a marcire lentamente, divorate da un veleno invisibile che si diffondeva sotto il suolo. Per vent’anni, la maledizione rimase dormiente, un nemico silenzioso che si preparava a colpire. Quando finalmente i druidi si accorsero del male, era già troppo tardi: gli alberi più antichi iniziavano a morire, le loro foglie si accartocciavano e cadevano, e il legno si sgretolava al minimo tocco.
+\image{rituale.jpeg}{Rituale della Foresta}{h!}
+La comunità halfling degli Spiriti, guidata dall’arcidruido Thorin, si mobilitò per salvare la foresta. I druidi più anziani si riunirono in un antico cerchio di pietre, un luogo sacro nascosto nel cuore della foresta, dove il potere della Vecchia Fede era più forte. Qui, sotto la luce della luna piena, iniziarono a compiere rituali per purificare il terreno. Thorin, con la sua voce profonda e solenne, intonava antichi canti druidici, mentre gli altri druidi tracciavano rune di protezione sul suolo con polvere di cristallo e cenere sacra. I giovani halfling, tra cui Semestra, raccoglievano erbe rare e radici dalle zone ancora incontaminate della foresta, sperando di creare un unguento capace di fermare la diffusione del veleno.
+
+Nonostante gli sforzi, la maledizione sembrava resistere a ogni tentativo. I rituali di purificazione, che un tempo avevano il potere di guarire la terra, ora si spegnevano come candele al vento. Le preghiere alla Natura, l’unica entità venerata dalla Vecchia Fede, sembravano non trovare risposta. Alcuni druidi, disperati, tentarono di evocare spiriti ancestrali per chiedere consiglio, ma le loro voci si perdevano nel silenzio opprimente della foresta morente. Thorin, determinato a non arrendersi, propose una soluzione estrema: trasformare gli alberi più antichi in Treant, creature viventi capaci di resistere al veleno. Tuttavia, questa scelta aveva un prezzo terribile: gli alberi trasformati perdevano la capacità di generare semi, rendendo sterile la foresta.
+\begin{DndSidebar}[float=!b]{La preghiera di Thorin}
+  \textit{
+    "Anu'vrae sylva, mae'loren thalass.\\
+    Eryn'vahl, shan'dorei, tel'quessir.\\
+    Lass'ethar, nor'vahl, shael'aran.\\
+    Tua'lyth, mae'loren, an'ethar.\\
+    Anu'vrae sylva, mae'loren thalass."\\
+    }
+    \textbf{Traduzione:}\\
+"Spiriti della foresta, ascoltate il mio richiamo.\\  
+Radici antiche, foglie eterne, popolo della natura.\\  
+Purificate la terra, guarite le ferite, proteggete la vita.\\  
+Concedeteci la vostra forza, o saggi custodi.  \\
+Spiriti della foresta, ascoltate il mio richiamo."
+\end{DndSidebar}
+Mentre i Treant si alzavano dalle radici contorte, le loro voci profonde e risonanti riempivano l’aria di un dolore antico. Semestra osservava con il cuore pesante, incapace di ignorare il sacrificio che la foresta stava compiendo per sopravvivere. Ogni Treant era una vittoria temporanea, ma anche un passo verso la desolazione. Nel frattempo, i funghi venefici continuavano a diffondersi, le loro spore invisibili si insinuavano nel terreno, raggiungendo nuove radure e contaminando le acque dei ruscelli. Gli halfling degli Spiriti, esausti ma determinati, non si arresero. Ogni giorno, scavavano nel terreno per rimuovere le radici infette, bruciavano i funghi con fiamme sacre e piantavano nuovi alberi, sperando che almeno alcuni potessero resistere.
+
+La foresta, un tempo un luogo di armonia e rigoglio, si trasformava lentamente in un campo di battaglia. Gli alberi morenti si ergevano come scheletri contro il cielo grigio, e il canto degli uccelli era stato sostituito dal crepitio delle fiamme e dal suono delle pale che scavavano nella terra. Eppure, nonostante tutto, la comunità degli Spiriti continuava a lottare, guidata dalla speranza che un giorno la foresta potesse rinascere. Per Semestra, ogni giorno era una lezione di sacrificio e resilienza, un promemoria del legame indissolubile tra la vita e la natura, e della responsabilità di proteggerla, anche a costo di grandi perdite.
+
 \end{document}
