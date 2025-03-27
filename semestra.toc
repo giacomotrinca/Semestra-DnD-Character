@@ -23,5 +23,11 @@
 \contentsline {paragraph}{La distruzione del salice}{5}{}%
 \contentsline {paragraph}{Il risveglio e il messaggio}{5}{}%
 \contentsline {paragraph}{La decisione di partire}{5}{}%
-\contentsline {paragraph}{Preparativi per il viaggio}{5}{}%
+\contentsline {paragraph}{Preparativi per il viaggio}{6}{}%
 \contentsline {paragraph}{Verso l’ignoto}{6}{}%
+\contentsline {section}{Il naufragio e l’incontro con Filottete}{6}{}%
+\contentsline {paragraph}{La furia della tempesta}{6}{}%
+\contentsline {paragraph}{Il risveglio sulla spiaggia}{6}{}%
+\contentsline {paragraph}{L’incontro con Filottete}{6}{}%
+\contentsline {paragraph}{Un’alleanza inaspettata}{6}{}%
+\contentsline {paragraph}{Un nuovo inizio}{7}{}%

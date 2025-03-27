@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  24 MAR 2025 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.27)  27 MAR 2025 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex
-(/mnt/01D9269698DA8D30/Semestra-DnD-Character/semestra.tex
+**/home/giacomo/Semestra-DnD-Character/semestra.tex
+(/home/giacomo/Semestra-DnD-Character/semestra.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./dndbook.cls (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -1075,23 +1075,28 @@ LaTeX Font Info:    Font shape `T1/pbk/b/sl' in size <10> not available
 
 LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10> not available
 (Font)              Font shape `T1/pbk/l/it' tried instead on input line 114.
+<img/semestra_larry-1.jpeg, id=26, 642.4pt x 642.4pt>
+File: img/semestra_larry-1.jpeg Graphic file (type jpg)
+<use img/semestra_larry-1.jpeg>
+Package pdftex.def Info: img/semestra_larry-1.jpeg  used on input line 118.
+(pdftex.def)             Requested size: 209.72244pt x 209.71854pt.
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 118.
+Package pdftex.def Info: img/paper.jpg  used on input line 119.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 118.
+Package pdftex.def Info: img/paper.jpg  used on input line 119.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 118.
+Package pdftex.def Info: img/paper.jpg  used on input line 119.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 118.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 119.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [2 <./img/fearun_map.jpg>]
 LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <17.28> not available
@@ -1124,30 +1129,43 @@ Package lettrine.sty Info: Targeted height = 41.41992pt
 (lettrine.sty)             reported on input line 169.
 
 
+Package lettrine Warning: *** ATTENTION REQUIRED ***
+(lettrine)                The dropped cap F doesn't fit on page 3.
+(lettrine)                Missing vertical space: 89.0844pt. 
+(lettrine)                Reported on input line 169.
+
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 190.
+Package pdftex.def Info: img/paper.jpg  used on input line 192.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 190.
+Package pdftex.def Info: img/paper.jpg  used on input line 192.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 190.
+Package pdftex.def Info: img/paper.jpg  used on input line 192.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 190.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 192.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[3]
+[3 <./img/semestra_larry-1.jpeg (PNG copy)>]
 Package lettrine.sty Info: Targeted height = 41.41992pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 40.53738pt (N);
 (lettrine.sty)             reported on input line 201.
 
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
@@ -1174,25 +1192,60 @@ Package lettrine.sty Info: Targeted height = 41.41992pt
 (lettrine.sty)             reported on input line 237.
 
 
+Package lettrine Warning: *** ATTENTION REQUIRED ***
+(lettrine)                The dropped cap L doesn't fit on page 5.
+(lettrine)                Missing vertical space: 80.12245pt. 
+(lettrine)                Reported on input line 237.
+
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 263.
+Package pdftex.def Info: img/paper.jpg  used on input line 260.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 263.
+Package pdftex.def Info: img/paper.jpg  used on input line 260.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 263.
+Package pdftex.def Info: img/paper.jpg  used on input line 260.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 263.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 260.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
 [5]
+Package lettrine.sty Info: Targeted height = 41.41992pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 41.47165pt (I);
+(lettrine.sty)             reported on input line 269.
+
+
+
+
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 285.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 285.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/paper.jpg Graphic file (type jpg)
+<use img/paper.jpg>
+Package pdftex.def Info: img/paper.jpg  used on input line 285.
+(pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
+File: img/footerscroll.pdf Graphic file (type pdf)
+<use img/footerscroll.pdf>
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 285.
+(pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
+[6]
 
 Package caption Warning: Unused \captionsetup[table] on input line 53.
 See the caption package documentation for explanation.
@@ -1203,21 +1256,21 @@ See the caption package documentation for explanation.
 
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 267.
+Package pdftex.def Info: img/paper.jpg  used on input line 286.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 267.
+Package pdftex.def Info: img/paper.jpg  used on input line 286.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/paper.jpg Graphic file (type jpg)
 <use img/paper.jpg>
-Package pdftex.def Info: img/paper.jpg  used on input line 267.
+Package pdftex.def Info: img/paper.jpg  used on input line 286.
 (pdftex.def)             Requested size: 614.33098pt x 794.99231pt.
 File: img/footerscroll.pdf Graphic file (type pdf)
 <use img/footerscroll.pdf>
-Package pdftex.def Info: img/footerscroll.pdf  used on input line 267.
+Package pdftex.def Info: img/footerscroll.pdf  used on input line 286.
 (pdftex.def)             Requested size: 614.33043pt x 43.36565pt.
-[6
+[7
 
 ] (./semestra.aux)
  ***********
@@ -1226,18 +1279,18 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28111 strings out of 473190
- 572574 string characters out of 5722593
- 1326454 words of memory out of 5000000
- 50456 multiletter control sequences out of 15000+600000
- 653996 words of font info for 309 fonts, out of 8000000 for 9000
+ 28133 strings out of 473190
+ 573021 string characters out of 5722593
+ 1330454 words of memory out of 5000000
+ 50472 multiletter control sequences out of 15000+600000
+ 654574 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 136i,18n,143p,1072b,1541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 136i,18n,143p,1064b,1541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/arkandis/gillius/GilliusADFNo2-Bold.pfb></usr/share/texmf-dist/fonts/type1/arkandis/gillius/GilliusADFNo2-BoldItalic.pfb></usr/share/texmf-dist/fonts/type1/arkandis/gillius/GilliusADFNo2-Italic.pfb></usr/share/texmf-dist/fonts/type1/arkandis/gillius/GilliusADFNo2-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/initials/RoyalIn.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssbsc8a.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssmsc8a.pfb></usr/share/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/share/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/share/texmf-dist/fonts/type1/urw/bookman/ubkl8a.pfb></usr/share/texmf-dist/fonts/type1/urw/bookman/ubkli8a.pfb>
-Output written on semestra.pdf (8 pages, 6118708 bytes).
+Output written on semestra.pdf (9 pages, 6671446 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 112673 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 112678 words of extra memory for PDF output out of 128383 (max. 10000000)
 
